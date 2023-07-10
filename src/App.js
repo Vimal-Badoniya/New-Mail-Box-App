@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import { useDispatch, useSelector } from "react-redux";
+import Login from "./Authentication/Login";
+import Profile from "./Home/Profile";
+import { useEffect } from "react";
+import { initialRender } from "./Redux/LoginSlice";
+
 
 function App() {
+  const dispatch = useDispatch();
+  const status = useSelector((state) => {
+    return state.login.login;
+  });
+
+  useEffect(() => {
+    dispatch(initialRender());
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {status && <Profile />}
+      {!status && <Login />}
     </div>
   );
 }

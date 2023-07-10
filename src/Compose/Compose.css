@@ -1,0 +1,22 @@
+.mailBody {
+  height: 20rem;
+  width: 70%;
+  resize: none;
+  padding: 10px;
+  font-size: large;
+  background-color: rgba(219, 99, 47, 0.3);
+  border-radius: 8px;
+  border: 2px solid black;
+}
+.to {
+  font-size: large;
+}
+.compose-input{
+  width: 40%;
+  display: block;
+  margin-bottom: 5px;
+  height: 1.5rem;
+  border-radius: 8px;
+  background-color: rgba(219, 99, 47, 0.3);
+  border: 2px solid black;
+}

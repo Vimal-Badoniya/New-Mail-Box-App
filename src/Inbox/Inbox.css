@@ -1,0 +1,38 @@
+.email {
+  background-color: rgba(219, 99, 47, 0.3);
+  border-bottom: 1px solid black;
+  border-radius: 8px;
+  margin: 3px;
+  height: 1.7rem;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+.email:hover {
+  box-shadow: 0 0 1px 1px red;
+  cursor: pointer;
+}
+.part1 {
+  box-shadow: 0 0 3px 1px rgb(219, 99, 47);
+  margin: 2px 5px;
+  padding: 2px 4px;
+  border-radius: 6px;
+}
+.h3text{
+  margin: 0;
+  display: inline;
+}
+.mailDetail{
+  border: 2px solid black;
+  padding: 5px;
+  border-radius: 8px;
+}
+.counter{
+  box-shadow: 0 0 2px 2px black;
+  border-radius: 8px;
+  background-color: rgba(219, 99, 47 , 0.5);
+  font-size: large;
+  width: 11%;
+ margin:0 0 5px 5px ;
+ padding-left: 5px;
+}
