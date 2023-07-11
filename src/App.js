@@ -4,7 +4,6 @@ import Profile from "./Home/Profile";
 import { useEffect } from "react";
 import { initialRender } from "./Redux/LoginSlice";
 
-
 function App() {
   const dispatch = useDispatch();
   const status = useSelector((state) => {
