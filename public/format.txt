@@ -1,6 +1,0 @@
-inbox email format - {
-    from : 
-    to : 
-    body :
-    readStatus :  
-}

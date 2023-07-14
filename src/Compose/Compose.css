@@ -20,3 +20,12 @@
   background-color: rgba(219, 99, 47, 0.3);
   border: 2px solid black;
 }
+
+@media screen and (max-width:640px) {
+ .compose-input{
+  width: 80%;
+ } 
+ .mailBody{
+  width: 90%;
+ }
+}

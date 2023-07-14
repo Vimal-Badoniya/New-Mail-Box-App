@@ -18,3 +18,9 @@
   padding: 2px 4px;
   border-radius: 6px;
 }
+
+@media screen and (max-width:640px) {
+  .email{
+    height: 4rem;
+  }
+}

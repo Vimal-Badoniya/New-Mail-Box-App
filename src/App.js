@@ -5,6 +5,7 @@ import { useEffect } from "react";
 import { initialRender } from "./Redux/LoginSlice";
 
 function App() {
+  console.log('app')
   const dispatch = useDispatch();
   const status = useSelector((state) => {
     return state.login.login;
